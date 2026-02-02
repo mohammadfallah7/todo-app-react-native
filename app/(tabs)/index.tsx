@@ -1,4 +1,4 @@
-import { Header } from "@/components";
+import { Header, TodoInput } from "@/components";
 import { useTheme } from "@/hooks";
 import { createHomeStyles } from "@/styles";
 import { LinearGradient } from "expo-linear-gradient";
@@ -19,6 +19,8 @@ export default function Index() {
       <StatusBar style={colors.statusBarStyle} />
       <SafeAreaView style={homeStyles.safeArea}>
         <Header />
+
+        <TodoInput />
 
         <TouchableOpacity onPress={toggleTheme}>
           <Text>Toggle Theme</Text>
