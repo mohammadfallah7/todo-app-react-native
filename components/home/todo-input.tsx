@@ -53,12 +53,13 @@ export const TodoInput = () => {
             style={[
               homeStyles.addButton,
               !text.trim() && homeStyles.addButtonDisabled,
+              loading && homeStyles.addButtonDisabled,
             ]}
             colors={
               text.trim() ? colors.gradients.primary : colors.gradients.muted
             }
           >
-            <Ionicons name={loading ? "stop" : "add"} size={24} color="#fff" />
+            <Ionicons name="add" size={24} color="#fff" />
           </LinearGradient>
         </TouchableOpacity>
       </View>
