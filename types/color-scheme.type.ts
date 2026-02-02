@@ -23,5 +23,5 @@ export type ColorScheme = {
     input: string;
     editInput: string;
   };
-  statusBarStyle: "light-content" | "dark-content";
+  statusBarStyle: "light" | "dark";
 };
