@@ -17,7 +17,6 @@ const TabsLayout = () => {
           borderTopColor: colors.border,
         },
         tabBarLabelStyle: { fontWeight: "bold", fontSize: 12 },
-        tabBarShowLabel: false,
       }}
     >
       <Tabs.Screen
