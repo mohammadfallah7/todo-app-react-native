@@ -1,50 +1,158 @@
-# Welcome to your Expo app 👋
+# ✅ React Native Real-Time To-Do App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, cross-platform **real-time To-Do application** built with
+**React Native, Expo, and Convex**.
+This project demonstrates how to create a full-stack mobile app that
+syncs instantly across devices without writing native code.
 
-## Get started
+------------------------------------------------------------------------
 
-1. Install dependencies
+## 🚀 Overview
 
-   ```bash
-   npm install
-   ```
+This app is designed to showcase real-world mobile development patterns
+using React Native. It supports **Android, iOS, and Web**, and leverages
+a real-time backend for seamless data synchronization.
 
-2. Start the app
+Whether you're exploring React Native or looking for an example of a
+reactive full-stack architecture, this project provides a solid
+reference.
 
-   ```bash
-   npx expo start
-   ```
+------------------------------------------------------------------------
 
-In the output, you'll find options to open the app in a
+## ✨ Features
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 📝 Task Management
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+-   Create new tasks
+-   Edit existing todos
+-   Mark tasks as completed or active
+-   Delete tasks
+-   Remove all tasks with a single action
+-   Live progress tracking
 
-## Get a fresh project
+### 🔄 Real-Time Sync
 
-When you're ready, run:
+-   Instant updates across all connected devices
+-   Powered by **Convex** for reactive data handling
+-   No manual refresh required
 
-```bash
-npm run reset-project
+### 🎨 UI & Experience
+
+-   Clean and modern interface
+-   Dark Mode support
+-   Gradient styling
+-   Modal and alert integrations
+-   Responsive layout for mobile and web
+
+### ⚙️ Settings & Insights
+
+-   Task statistics (total, completed, remaining)
+
+------------------------------------------------------------------------
+
+## 🧠 Tech Stack
+
+**Frontend** - React Native
+- Expo
+- React Navigation
+
+**Backend** - Convex (real-time database)
+
+**Core Concepts Demonstrated** - Cross-platform development
+- Real-time state updates
+- Component-driven architecture
+- Theme management
+- Local + remote state handling
+
+------------------------------------------------------------------------
+
+## 📱 Supported Platforms
+
+✅ iOS
+✅ Android
+✅ Web
+✅ Physical devices & simulators
+
+No Swift or Kotlin required --- just JavaScript and React Native.
+
+------------------------------------------------------------------------
+
+## 🛠️ Installation
+
+### 1️⃣ Clone the repository
+
+``` bash
+git clone https://github.com/mohammadfallah7/todo-app-react-native.git
+cd todo-app-react-native
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+------------------------------------------------------------------------
 
-## Learn more
+### 2️⃣ Install dependencies
 
-To learn more about developing your project with Expo, look at the following resources:
+``` bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+------------------------------------------------------------------------
 
-## Join the community
+### 3️⃣ Environment Variables
 
-Join our community of developers creating universal apps.
+Create a `.env` file in the project root:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+    CONVEX_DEPLOYMENT=your_convex_deployment
+    EXPO_PUBLIC_CONVEX_URL=your_convex_url
+
+You can obtain these values from your Convex dashboard.
+
+------------------------------------------------------------------------
+
+### 4️⃣ Start the Convex backend
+
+``` bash
+npx convex dev
+```
+
+------------------------------------------------------------------------
+
+### 5️⃣ Run the app
+
+``` bash
+npx expo
+```
+
+Then open it using:
+
+-   Expo Go (recommended)
+-   Android emulator
+-   iOS simulator
+-   Web browser
+
+------------------------------------------------------------------------
+
+## 📂 Project Highlights
+
+✔️ Full-stack mobile architecture
+✔️ Real-time database integration
+✔️ Production-style folder structure
+✔️ Scalable UI patterns
+✔️ Beginner-friendly but built with professional practices
+
+------------------------------------------------------------------------
+
+## 🤝 Contributing
+
+Contributions are welcome!
+
+If you'd like to improve the app, feel free to:
+
+1.  Fork the repository
+2.  Create a feature branch
+3.  Submit a pull request
+
+------------------------------------------------------------------------
+
+## ⭐ Support
+
+If you found this project helpful, consider giving it a **star** ⭐ ---
+it helps others discover the repo!
